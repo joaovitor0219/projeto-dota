@@ -1,0 +1,305 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+ }
+
+
+header{
+    padding:20px;
+    background-color:rgba(0, 0, 0, 0.903);
+    text-align: center;
+
+}
+
+header > p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    font-size:3.2em;
+
+}
+
+nav{
+
+    background-color: rgba(0, 0, 0, 0.903);
+    padding:20px;
+    text-align: center;
+}
+
+nav > a{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    padding:10px; 
+    border-radius: 5px;
+    text-decoration:none;
+    font-weight: bold;
+    transition-duration: .5s;
+    font-size: 1.5em;
+    border-style: ridge;
+    
+}
+
+nav > a:hover{
+    color:rgba(139, 0, 0, 0.663);
+    }
+
+#download-inicio{
+    background-image: linear-gradient(to right,#2E0505,#5C2526,#A81113);
+    color:rgb(255, 255, 255);
+    padding:10px 20px;
+    text-decoration:none;
+    transition-duration: .3s;
+    border-style: solid;
+    border-radius: 5px 2px;
+}
+
+ #download-inicio:hover{
+    color:rgba(0, 0, 0, 0.663);
+ }
+
+body{
+    background-color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    background-repeat: no-repeat;
+    background-size:100%;
+    
+}
+main{
+    background-image: linear-gradient(to right,#2E0505,#5C2526,#A81113);
+    background-color:white;
+    padding:20px;
+    margin: 30px;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.442);
+    border-radius: 0px 10px 0px;
+    overflow-x: hidden;
+  
+   
+}
+
+
+.secao-inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding:150px;
+    background-color: black;
+    border-radius: 0px 10px 0px;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.538);
+    
+}
+
+#inicio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 2.2em;
+    width: auto;
+    
+}
+#pudge{
+    border-radius:50%;
+    width:100%;
+}
+
+#jogo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:larger;
+    background-color:white;
+    padding:10%;
+    margin-top:10px;
+    border-radius: 0px 10px 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.463);
+    text-align: center;
+    
+}
+
+#download-jogo:hover{
+    color:rgba(0, 0, 0, 0.663);
+}
+
+#download-jogo{
+    background-image: linear-gradient(to right,#2E0505,#5C2526,#A81113);
+    color:rgb(255, 255, 255);
+    padding:20px;
+    text-decoration:none;
+    border-style: solid;
+    border-radius: 10px;
+    transition-duration: .3s;
+}
+
+#titulo-jogo{
+    padding:3%;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.266);
+    border-style:solid;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.43);
+    background-image:linear-gradient(30deg,#A6121F,#BF5E5E,#D9D9D9,#8C8C8C,#0D0D0D )
+}
+
+#subtitulo-jogo{
+    padding:3%;
+}
+
+#paragrafo-jogo{
+    padding:3%;
+}
+
+
+
+#conquistas{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    padding:75px;
+    margin-top:10px;
+    border-radius: 0px 10px 0px;
+}
+
+#conquistas-titulo{
+    text-align: center;
+    font-size: 3em;
+}
+
+#conquistas-subtitulo{
+    text-align: center;
+    margin-top:15px;
+    font-size: 1.2em;
+}
+
+#secao-conquistas{
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: black;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+
+    
+}
+
+#international{
+    margin:40px;
+    background-color: white;
+    font-family:inherit;
+    color:black;
+    padding:20px;
+    border-radius: 0px 10px 0px;
+    transition-duration: .3s;
+
+}
+
+#jogadores-simultaneos{
+    margin:40px;
+    background-color: white;
+    font-family:inherit;
+    color:black;
+    padding:20px;
+    border-radius: 0px 10px 0px;
+    transition-duration: .3s;
+}
+
+#premiacoes{
+    margin:40px;
+    background-color: white;
+    font-family:inherit;
+    color:black;
+    padding:20px;
+    border-radius: 0px 10px 0px;
+    transition-duration: .3s;
+}
+
+#titulo-international{
+    padding:5px;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.131);
+}
+
+#titulo-jogadores-simultaneos{
+    padding:5px;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.131);
+}
+
+#titulo-premiacoes{
+    padding:5px;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.131);
+}
+
+#international:hover{
+    color:darkred;
+    }
+
+#jogadores-simultaneos:hover{
+    color:darkred;
+}
+
+#premiacoes:hover{
+    color:darkred;
+}
+
+#secao-site-oficial{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding:150px;
+    background-color: white;
+    border-radius: 0px 10px 0px;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.538);
+    background-image: url(imagens/fundo-dota.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#siteoficial{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+    font-size: 1.7em;
+    background-color:black;
+    margin-right: 60px;
+    border-radius: 0px 10px 0px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.545);
+}
+
+#titulo-site-oficial{
+    padding:40px;
+
+}
+
+#site-dota{
+    color:white;
+    text-decoration:none;
+    transition-duration: .3s;
+    
+}
+
+#site-dota:hover{
+    color:red;
+}
+
+footer{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    padding:20px;
+    font-size:1.3em;
+}
+
+footer>p>a{
+    color:white;
+    text-decoration:none;
+}
+
+
+
+    
+ 
